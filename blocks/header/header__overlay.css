@@ -1,0 +1,9 @@
+.header__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 768px;
+    background-color: #C66C49;
+    opacity: .3;
+}
