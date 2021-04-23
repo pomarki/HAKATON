@@ -1,7 +1,6 @@
 .header {
-    position: relative;
-  width: 1440px;
-  height: 100%;
-  background: #FFFAF2;
+  position: relative;
+  max-width: 1440px;
+  background: #fffaf2;
   
 }

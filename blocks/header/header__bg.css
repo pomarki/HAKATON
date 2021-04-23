@@ -1,3 +1,11 @@
 .header__bg {
-    position: relative;
+  position: relative;
+  background: no-repeat url("../../images/header-bg.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 1440px;
+  max-height: 768px;
+  padding-bottom: 53.3%; 
+
 }

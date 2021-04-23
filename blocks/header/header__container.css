@@ -1,0 +1,11 @@
+.header__container {
+  color: #ffffff;
+  position: absolute;
+  top: 93px;
+  left: 165px;
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  
+}

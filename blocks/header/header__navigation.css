@@ -1,6 +1,7 @@
 .header__navigation {
-    position: absolute;
-    top: 93px;
-    left: 165px;
-    color: #ffffff;
+  font-family: "Libre Franklin", "Arial", "Helvetica", sans-serif;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }

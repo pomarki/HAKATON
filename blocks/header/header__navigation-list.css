@@ -1,0 +1,8 @@
+.header__navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    list-style: none;
+}
