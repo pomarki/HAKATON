@@ -1,0 +1,15 @@
+.portfolio__arrow-element {
+    background-image: url("../../images/left.svg");
+    background-position: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: none;
+    
+}
+
+.portfolio__arrow-element:nth-child(2) {
+    background-image: url("../../images/right.svg");
+}

@@ -1,0 +1,10 @@
+.portfolio__images {
+    display: grid;
+    width: 700px;
+    height: 380px;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 160px 1fr 1fr;
+    gap: 26px;
+    box-sizing: border-box;
+    
+}

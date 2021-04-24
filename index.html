@@ -24,8 +24,8 @@
               <a class="link" href="#about">о нас</a>
             </li>
             <li class="header__navigation-link link"><a class="link" href="#skills">навыки</a></li>
-            <li class="header__navigation-link link">портфолио</li>
-            <li class="header__navigation-link link">контакты</li>
+            <li class="header__navigation-link link"><a class="link" href="#portfolio">портфолио</a></li>
+            <li class="header__navigation-link link"><a class="link" href="#contacts">контакты</a></li>
           </ul>
         </nav>
         <h1 class="header__greeting">
@@ -37,7 +37,7 @@
     </header>
     <main class="content">
       <section class="about page__about">
-        <h2 class="about__title"><a name="about">О нас</a></h2>
+        <h2 class="section__title"><a name="about">О нас</a></h2>
         <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
         <a href="#skills"><img src="./images/arrov-up.svg" class="link-arrov link-arrov_down" alt="вниз"></a>
         <p class="about__text">
@@ -110,9 +110,9 @@
         <a href="#about"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
       </section>
       <section class="skills page__skills">
-        <h2 class="skills__title"><a name="skills">Навыки</a></h2>
+        <h2 class="section__title"><a name="skills">Навыки</a></h2>
         <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
-        <div class="skills__container">
+        <div class="section__container">
           <img src="images/i-am.jpg" class="skills__img">
           <div class="skills__animation">
             <p class="skills__subtitle">Профиль:</p>
@@ -133,8 +133,54 @@
           </div>
         </div>
       </section>
-      <section class="portfolio"></section>
+      <section class="portfolio page__portfolio">
+        <h1 class="section__title"><a name="portfolio">Портфолио</a></h1>
+        <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
+        <h2 class="section__subtitle">UX Research</h2>
+        <div class="section__container">
+            
+            <div class="portfolio__text-box">
+            <p class="portfolio__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam
+                odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam
+                odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
+                <p class="portfolio__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam
+                  odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam
+                  odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
+            </div>
+                <div class="portfolio__images">
+                    <img src="./images/Rectangle1.jpg" alt="place" class="portfolio__image">
+                    <img src="./images//dom-luis-bridge-porto-carol-japp.jpg" alt="place" class="portfolio__image">
+                    <img src="./images/Rectangle.jpg" alt="place" class="portfolio__image">
+                    <img src="./images/Rectangle4.jpg" alt="place" class="portfolio__image">
+                </div>
+                
+        </div>
+
+      </section>
     </main>
-    <footer class="footer page__footer"></footer>
+    <footer class="footer page__footer">
+      <h2 class="section__title"><a name="contacts">Связаться с нами</a></h2>
+      <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
+      <div class="section__container">
+          <ul class="footer__links">
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Dribbble</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Behance</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">CodePen</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">GitHub</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Medium</a></li>
+          </ul>
+          <ul class="footer__links">
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">LinkedIn</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Facebook</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Instagram</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">Twitter</a></li>
+              
+          </ul>
+          <ul class="footer__links">
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">seyrig@mailme.com</a></li>
+              <li class="footer__li"><a href="#" target="_blank" class="link footer__link">+ 55 6645 665544</a></li>
+          </ul>
+        </div>
+    </footer>
   </body>
 </html>
