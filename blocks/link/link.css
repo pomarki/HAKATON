@@ -14,3 +14,9 @@
   color: #333333;
   background-color: #FFFAF2;
 }
+
+@media screen and (max-width: 940px) {
+  .link {
+    font-size: 13px;
+  }
+}

@@ -1,4 +1,9 @@
 .header__subtitle {
-    
-    margin: 0 0 106px 0;
+  margin: 0 0 106px 0;
 }
+
+@media screen and (max-width: 940px){
+    .header__subtitle {
+      margin: 0 0 13px 0;
+    }
+  }

@@ -6,3 +6,11 @@
   margin: 0;
   padding: 30px 165px 0 165px;
 }
+
+@media screen and (max-width: 940px) {
+  .about__text {
+    padding: 30px 10px 10px 0;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
