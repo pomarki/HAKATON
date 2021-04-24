@@ -7,4 +7,17 @@
   padding-bottom: 53.3%;
   background-color: hsl(17, 52%, 53%);
   opacity: 0.3;
+  /* transition: all 1s linear; */
 }
+
+/* .header__overlay:hover {
+  background-color: teal;
+  transition: all 1s linear;
+} */
+
+/* 
+@media screen and (max-width: 1024px) {
+  .header__overlay {
+    background-color: teal;
+  }
+} */
