@@ -1,0 +1,20 @@
+.skills__animation-02 {
+    height: 24px;
+    width: 350px;
+    background-color: #F5D6AB;
+    animation-name: two;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    align-self: center;
+}
+
+@keyframes two {
+    0% {
+        width: 300px;
+    }
+    100% {
+        width: 350px;
+    }
+}

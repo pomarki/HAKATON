@@ -1,11 +1,24 @@
 .header__bg {
   position: relative;
-  background: no-repeat url("../../images/header-bg.png");
+  /* background: no-repeat url("../../images/header-bg.png");
   background-size: auto;
   background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 1440px;
+  background-size: contain; */
+  filter: saturate(40%);
+  display: block;
+  max-width: 100%;
+ /*  filter: sepia(90%); */
+  transition: 1.2s ease-in-out;
+  /* max-width: 1440px; */
   max-height: 768px;
-  padding-bottom: 53.3%; 
-
+  /* padding-bottom: 53.3%; */
+  overflow: hidden;
 }
+.header__bg:hover {
+  /* transform: scale(1.2); */
+  /* -webkit-transition: 1.2s ease-in-out; */
+  /* filter: blur(0);
+ 
+  transition: 1.2s ease-in-out;
+} 
+

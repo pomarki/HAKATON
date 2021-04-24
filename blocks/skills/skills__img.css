@@ -1,0 +1,11 @@
+.skills__img {
+  width: 350px;
+  filter: sepia(100%);
+  margin:  0 0 125px 0;
+  transition: all 2s linear;
+}
+
+.skills__img:hover {
+  transition: all 2s linear;
+  filter: sepia(0%);
+}

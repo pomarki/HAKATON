@@ -10,28 +10,129 @@
     <title>T H I S</title>
   </head>
   <body class="page">
+    <a name="top"></a>
     <header class="header page__header">
-      <div class="header__bg"></div>
-      <div class="header__overlay"></div>
+      <!-- <div class="header__bg"></div> -->
+     <!--  <div class="header__overlay"></div> -->
+     <img src="images/header-bg.png" class="header__bg">
       <div class="header__container">
         <nav class="header__navigation">
-          <span class="header__title">Портфолио</span>
+          <span class="header__title"><a name="top">Портфолио</span>
           <ul class="header__navigation-list">
             <li class="header__navigation-link link">домой</li>
-            <li class="header__navigation-link link">о нас</li>
-            <li class="header__navigation-link link">навыки</li>
+            <li class="header__navigation-link">
+              <a class="link" href="#about">о нас</a>
+            </li>
+            <li class="header__navigation-link link"><a class="link" href="#skills">навыки</a></li>
             <li class="header__navigation-link link">портфолио</li>
             <li class="header__navigation-link link">контакты</li>
           </ul>
         </nav>
-        <h1 class="header__greeting">Привет!&nbsp;Это&nbsp;команда&nbsp;T&nbsp;H&nbsp;I&nbsp;S</h1>
+        <h1 class="header__greeting">
+          Привет!&nbsp;Это&nbsp;команда&nbsp;T&nbsp;H&nbsp;I&nbsp;S
+        </h1>
         <h2 class="header__subtitle">Делаем сайты в России</h2>
         <a class="link" href="#">Последняя работа</a>
       </div>
     </header>
     <main class="content">
-      <section class="about"></section>
-      <section class="skills"></section>
+      <section class="about page__about">
+        <h2 class="about__title"><a name="about">О нас</a></h2>
+        <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
+        <a href="#skills"><img src="./images/arrov-up.svg" class="link-arrov link-arrov_down" alt="вниз"></a>
+        <p class="about__text">
+          В этом месте контент-менеджер должен был рассказать какие мы клёвые,
+          но так получилось, что у нас нет контент-менеджера. Для того, чтобы
+          место не пропадало, я лучше расскажу, какой странный сон мне приснился
+          недавно, это и вас развлечёт и мне даст возможность потренироваться в
+          вёрстке.
+        </p>
+        <p class="about__text">
+          Я — парень лет 14, учусь в школе с углубленным изучением математики,
+          для души изучаю голландский язык по скайпу с голландской девушкой на
+          год меня старше, у нас с ней Отношения. И вот я сижу на контрольной
+          работе по комплексным числам, на часах 12:48 и я мысленно делю и у
+          меня получается 0.25 тут я внезапно чихаю, на мгновение закрыв глаза,
+          а когда я их открываю, то вижу, что я стою в «Пятёрочке» и раскладываю
+          лук в большой такой короб, мне теперь 42 года, я Инга Владимировна
+          Сиверцева, пять лет в разводе, живу с мамой на Нижнем Тракторном.
+        </p>
+        <p class="about__text">
+          Ну, понятное дело, кому о таком расскажешь? Но я понимаю, что какая–то
+          неведомая сила перекинула меня в чужое тело и надо вернуть своё (в
+          духе Лукьяненко). И я, закончив смену, быстренько курю около
+          служебного входа, отмахиваюсь от предложения девчонок выпить наконец
+          пива, еду в Макдональдс на другом конце города, куда я 14–летний
+          собирался ехать после контрольной.
+        </p>
+        <p class="about__text">
+          И там я вижу себя, спокойно жующего «биг–тейсти», и я сажусь напротив
+          с ватными ногами и рассказываю всю эту историю и говорю: «Не знаю, как
+          ты это проделала, Инга Владимировна, но проделывай это всё обратно, я
+          даже это имя, Инга, ненавижу!" А парень смотрит на меня и отвечает:
+          «Прикольный рассказ, прям как у этого, который «Ночной дозор» написал.
+          То есть ты — это я?»
+        </p>
+        <p class="about__text">
+          И он пишет на салфетке какое–то бредовое уравнение: 
+        </p>
+          <p class="about__math">sub&#1793;4log6(10 +!Х) &#8801; sin&#1793;log63</p>
+          <p class="about__text">
+          и предлагает решить мне его, а я понимаю, что знаю — это
+          субтригонологарифмическое уравнение, решать его надо отбросив
+          логарифм, но я совершенно не могу этого сделать. И он мне говорит
+          что–то типа: «Ансур диц ойхе?», я понимаю, что это голландский, но
+          ответить тоже не могу, потому что все знания внутри меня заперты в
+          стеклянный куб, могу только посмотреть, но не дотянуться.
+        </p>
+        <p class="about__text">
+          И он говорит: «Поэтому я фантастику и не читаю, тётенька». Допивает
+          колу, встаёт с подносом и уходит.
+        </p>
+        <p class="about__text">
+          А я еду домой, по дороге заруливая в бар, где сидят подруги из
+          «Пятёрочки». Там играет «О боже, какой мужчина!», я пью пиво, и Лена
+          говорит мне, что слышала стопудово — меня назначат директором по
+          свежести, вместо этой тощей суки Анечки.
+        </p>
+        <p class="about__text">
+          Мы выходим из бара заполночь, вызываем «Яндекс.Такси» и едем по домам.
+          Мама спит в своей комнате и тихо похрапывает. Я открываю холодильник,
+          выпиваю рассола из банки. Смотрю в ночной двор на облупившийся бюст
+          Карла Маркса, покрытый в сто слоёв серебрянки, так что черты лица
+          смазались, будто его много лет лизали собаки.
+        </p>
+        <p class="about__text">
+          На подоконнике стоит баночка с проросшим луком. Я беру её и вижу
+          маркировку на этикетке: «0.25l» На мгновение это число кажется мне
+          страшно важным, но потом я забываю почему и просыпаюсь.
+        </p>
+        <a href="#about"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
+      </section>
+      <section class="skills page__skills">
+        <h2 class="skills__title"><a name="skills">Навыки</a></h2>
+        <a href="#top"><img src="./images/arrov-up.svg" class="link-arrov" alt="вверх"></a>
+        <div class="skills__container">
+          <img src="images/i-am.jpg" class="skills__img">
+          <div class="skills__animation">
+            <p class="skills__subtitle">Профиль:</p>
+            <p class="skills_text">Вэб-разработчик</p>
+            <p class="skills__subtitle">Уровень мастерства:</p>
+            <div class="skills__animation-01"></div>
+            <p class="skills__subtitle skills__subtitle_white">инструменты</p>
+            <p class="skills__subtitle skills__subtitle_white">HTML, CSS, JS, Bootstrap, React</p>
+            <p class="skills__subtitle">Уровень хвастовства:</p>
+            <div class="skills__animation-02"></div>
+            <p class="skills__subtitle skills__subtitle_white">инструменты</p>
+            <p class="skills__subtitle skills__subtitle_white">центр выработки дофамина</p>
+            <p class="skills__subtitle">Уровень обучения:</p>
+            <div class="skills__animation-03"></div>
+            <p class="skills__subtitle skills__subtitle_white">инструменты</p>
+            <p class="skills__subtitle skills__subtitle_white">тетради, вебинеры, нытьё в личке наставника</p>
+
+          </div>
+        </div>
+      </section>
       <section class="portfolio"></section>
     </main>
     <footer class="footer page__footer"></footer>

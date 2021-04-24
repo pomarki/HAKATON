@@ -1,13 +1,16 @@
 .link {
   color: #ffffff;
+  /* color: #c66c49; */
   text-decoration: none;
   transition: all 0.4s linear;
+  font-size: 18px;
+  font-weight: bold;
+  /* background-color: #FFFAF2; */
 }
 
 .link:hover {
   opacity: 0.8;
   transition: all 0.4s linear;
-  cursor: pointer;
   color: #333333;
   background-color: #FFFAF2;
 }

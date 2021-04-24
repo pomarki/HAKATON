@@ -1,0 +1,18 @@
+.skills__container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 165px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+    .skills__container {
+        flex-direction: column;
+        padding: 0 0 0 0;
+    }
+    
+}

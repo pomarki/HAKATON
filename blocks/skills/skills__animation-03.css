@@ -1,0 +1,21 @@
+.skills__animation-03 {
+    height: 24px;
+    width: 350px;
+    /* background-color: #8B4136; */
+    background-color: #333333;
+    animation-name: three;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    align-self: center;
+}
+
+@keyframes three {
+    0% {
+        width: 50px;
+    }
+    100% {
+        width: 350px;
+    }
+}
